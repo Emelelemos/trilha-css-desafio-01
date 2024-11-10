@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Releway;
+  color: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+*{
+  font-family: "Releway";
+
+
+}
+header{
+  width: 100%;
+  height: 605px;
+  background-size: cover;
+  background-image: linear-gradient(#040404, #102735), url("../imagem/banner.png");
+  background-blend-mode: overlay;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+
+  
+}
+
+.logo {
+  justify-content: center;
+  align-items: center; 
+  margin: bottom 200px; 
+
+}
+h1 {
+  font-weight: bold;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+button{
+  background-color: transparent;
+  width: 326px;
+  height: 57px;
+  border: solid;
+  border-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  border-image-slice: 1;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  color: rgba(49, 168, 221, 1);
+  line-height: 18.78px; 
+  letter-spacing: 0.21em ;
+}
+span{
+  color: rgba(51, 168, 219, 1)
+}
+h2{
+  color: rgba(51, 168, 219, 1); 
+  text-transform: uppercase;
+  line-height: 18.78px; 
+  letter-spacing: 0.21em ;
+  font-size: 32px;
+}
+#course-content{
+  width: 100%;
+  height: 605px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+.module{
+  width: 535px;
+  height: 51px;
+  background-color:rgba(37, 37, 37, 1);
+  border: 1px solid rgba(51, 168, 219, 1);
+  border-radius: 57px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+#transform-world{
+  background-image: url("../imagem/woman-code.png");
+  background-attachment: fixed;
+  width: 100%;      
+  height: 100vh;    
+  background-size: cover; 
+  position: relative;
+}
+#transform-world p {
+  position: absolute; 
+  text-transform: lowercase;
+  color: white;
+  text-shadow: 2px 2px 5px  rgba(51, 168, 219, 1);
+  font: 40px Releway;
+  width: 244px;
+  height: 141px;
+  top: 230px;
+  left: 198px;
+}
+#professional-challenges {
+  width: 100%;
+  height: 605px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+#professional-challenges p{
+  color: white;
+  font: 16px Releway;
+  width: 792px; 
+  height: 76px;
+}
+#professional-challenges h2{
+  width: 746px;
+  height: 76px;
+  width: 746px;
+  line-height: 37.57px;
+  letter-spacing: 19%;
+  padding-top:50px;
+}
+footer {
+  background: linear-gradient(#040404, #102735);
+  width: 100%;
+  height: 170px;
+  top: 2321px;
+  padding-top:40px;
+  color: white;
+  align-items: center; 
+  text-align: center;
+
+
+}
